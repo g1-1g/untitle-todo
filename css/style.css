@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    height: 80px;
+}
+
+.roginC {
+    height: 500px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.roginI b{
+    color:rgb(72, 72, 72)
+}
+.roginI{
+    width: 300px;
+    height: 100px;   
+    display : flex;  
+    flex-direction: column;     
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.roginI:nth-child(2) { height: 100px; }
+.roginI:nth-child(3) { align-items: stretch;  }
+
+#email{
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+    border:0 solid black;
+    font-weight: bold;    
+    font-size: 12px;
+}
+
+#password{
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+    border:0 solid black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#roginGB{
+    background-color: rgb(163, 163, 163);
+    height: 30px;
+    border:0 solid black;
+    font-weight: bold;
+    color:aliceblue
+    
+}
+
+.roginB{
+    align-content: stretch;
+}
+

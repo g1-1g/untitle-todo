@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,11 +19,16 @@
         <b>로그인</b>
         <br>
     </div>
-    <div class =  "roginI">
-        <input type="text", class = ronginB, id = "email", placeholder="&nbsp&nbsp이메일" >
-        <input type="text", class = ronginB, id = "password", placeholder="&nbsp&nbsp비밀번호">
-        <button id="roginGB" class = ronginB >로그인</button>
-    </div>          
+    <form class =  "roginI">
+        <input type="email", class = roginB, id = "emailM", placeholder="이메일" >
+        <input type="password", class = roginB, id = "passwordM", placeholder="비밀번호">
+        <div class = ronginB, id = "failM">
+            <br>
+        </div>
+        <button id="roginGB" class = roginB >로그인</button>
+    </form>          
     </div>
 </body>
 </html>
+
+<script src="js/rogin.js"></script>
